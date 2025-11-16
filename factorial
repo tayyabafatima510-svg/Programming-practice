@@ -1,0 +1,19 @@
+#include<iostream.h>
+using namespace std;
+int  main()
+{
+	int  n,c,f;
+	c=1;
+	f=1;
+	cout<<"enter a number";
+	cin>>n;
+	while(c<=n)
+	{
+		f=f*c;
+		c++;
+	}
+{
+	cout<<"factorial of "<<n<<"is"<<f<<endl;
+}
+return 0;	
+}
