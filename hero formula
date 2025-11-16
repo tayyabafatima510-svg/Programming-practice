@@ -1,0 +1,22 @@
+#include<iostream.h>
+#include<math.h>
+using namespace std;
+int  main()
+{
+	int  a,b,c,s,result;
+	cout<<"enter three sides of triangle";
+	cin>>a>>b>>c;
+	{
+	s=(a+b+c)/2;
+	result=sqrt(s*(s-a)(s-b)(s-c));
+	}
+	if(result%2==0)
+	{
+	cout<<"result it even";
+	}
+	else
+	{
+	cout<<"result is odd";
+	}
+return 0;	
+}
